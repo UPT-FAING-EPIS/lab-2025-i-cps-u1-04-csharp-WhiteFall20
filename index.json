@@ -106,7 +106,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | Documentation_Lab4",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "Bienvenido a la Documentación del Lab 3 | Documentation_Lab4",
+    "summary": "Bienvenido a la Documentación del Lab 3 Este sitio contiene la documentación generada automáticamente de las clases de los Proyectos ATM.Domain, Payment.Domain y Comportamiento.Domain. Navegación Ver API generada de ATM Ver API generada de Payment Ver API generada de Comportamiento"
   }
 }
