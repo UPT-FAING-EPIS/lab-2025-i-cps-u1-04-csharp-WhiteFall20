@@ -1,0 +1,112 @@
+{
+  "api/ATM.Domain.ATM.html": {
+    "href": "api/ATM.Domain.ATM.html",
+    "title": "Class ATM | Documentation_Lab4",
+    "summary": "Class ATM Namespace ATM.Domain Assembly ATM.Domain.dll public class ATM Inheritance object ATM Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ATM(ICommand) public ATM(ICommand command) Parameters command ICommand Methods Action() public void Action()"
+  },
+  "api/ATM.Domain.Account.html": {
+    "href": "api/ATM.Domain.Account.html",
+    "title": "Class Account | Documentation_Lab4",
+    "summary": "Class Account Namespace ATM.Domain Assembly ATM.Domain.dll public class Account Inheritance object Account Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields MAX_INPUT_AMOUNT public const decimal MAX_INPUT_AMOUNT = 10000 Field Value decimal Properties AccountBalance public decimal AccountBalance { get; set; } Property Value decimal AccountNumber public int AccountNumber { get; set; } Property Value int Methods Deposit(decimal) public void Deposit(decimal amount) Parameters amount decimal Withdraw(decimal) public void Withdraw(decimal amount) Parameters amount decimal"
+  },
+  "api/ATM.Domain.DepositCommand.html": {
+    "href": "api/ATM.Domain.DepositCommand.html",
+    "title": "Class DepositCommand | Documentation_Lab4",
+    "summary": "Class DepositCommand Namespace ATM.Domain Assembly ATM.Domain.dll public class DepositCommand : ICommand Inheritance object DepositCommand Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DepositCommand(Account, decimal) public DepositCommand(Account account, decimal amount) Parameters account Account amount decimal Methods Execute() public void Execute()"
+  },
+  "api/ATM.Domain.ICommand.html": {
+    "href": "api/ATM.Domain.ICommand.html",
+    "title": "Interface ICommand | Documentation_Lab4",
+    "summary": "Interface ICommand Namespace ATM.Domain Assembly ATM.Domain.dll public interface ICommand Methods Execute() void Execute()"
+  },
+  "api/ATM.Domain.WithdrawCommand.html": {
+    "href": "api/ATM.Domain.WithdrawCommand.html",
+    "title": "Class WithdrawCommand | Documentation_Lab4",
+    "summary": "Class WithdrawCommand Namespace ATM.Domain Assembly ATM.Domain.dll public class WithdrawCommand : ICommand Inheritance object WithdrawCommand Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WithdrawCommand(Account, decimal) public WithdrawCommand(Account account, decimal amount) Parameters account Account amount decimal Methods Execute() public void Execute()"
+  },
+  "api/ATM.Domain.html": {
+    "href": "api/ATM.Domain.html",
+    "title": "Namespace ATM.Domain | Documentation_Lab4",
+    "summary": "Namespace ATM.Domain Classes ATM Account DepositCommand WithdrawCommand Interfaces ICommand"
+  },
+  "api/Comportamiento.Domain.IObserver.html": {
+    "href": "api/Comportamiento.Domain.IObserver.html",
+    "title": "Interface IObserver | Documentation_Lab4",
+    "summary": "Interface IObserver Namespace Comportamiento.Domain Assembly Comportamiento.Domain.dll public interface IObserver Methods Update(float) void Update(float temperature) Parameters temperature float"
+  },
+  "api/Comportamiento.Domain.ISubject.html": {
+    "href": "api/Comportamiento.Domain.ISubject.html",
+    "title": "Interface ISubject | Documentation_Lab4",
+    "summary": "Interface ISubject Namespace Comportamiento.Domain Assembly Comportamiento.Domain.dll public interface ISubject Methods NotifyObservers() void NotifyObservers() RegisterObserver(IObserver) void RegisterObserver(IObserver observer) Parameters observer IObserver RemoveObserver(IObserver) void RemoveObserver(IObserver observer) Parameters observer IObserver"
+  },
+  "api/Comportamiento.Domain.TemperatureDisplay.html": {
+    "href": "api/Comportamiento.Domain.TemperatureDisplay.html",
+    "title": "Class TemperatureDisplay | Documentation_Lab4",
+    "summary": "Class TemperatureDisplay Namespace Comportamiento.Domain Assembly Comportamiento.Domain.dll public class TemperatureDisplay : IObserver Inheritance object TemperatureDisplay Implements IObserver Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties LastTemperature public float LastTemperature { get; } Property Value float Methods Update(float) public void Update(float temperature) Parameters temperature float"
+  },
+  "api/Comportamiento.Domain.WeatherStation.html": {
+    "href": "api/Comportamiento.Domain.WeatherStation.html",
+    "title": "Class WeatherStation | Documentation_Lab4",
+    "summary": "Class WeatherStation Namespace Comportamiento.Domain Assembly Comportamiento.Domain.dll public class WeatherStation : ISubject Inheritance object WeatherStation Implements ISubject Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods NotifyObservers() public void NotifyObservers() RegisterObserver(IObserver) public void RegisterObserver(IObserver observer) Parameters observer IObserver RemoveObserver(IObserver) public void RemoveObserver(IObserver observer) Parameters observer IObserver SetTemperature(float) public void SetTemperature(float temperature) Parameters temperature float"
+  },
+  "api/Comportamiento.Domain.html": {
+    "href": "api/Comportamiento.Domain.html",
+    "title": "Namespace Comportamiento.Domain | Documentation_Lab4",
+    "summary": "Namespace Comportamiento.Domain Classes TemperatureDisplay WeatherStation Interfaces IObserver ISubject"
+  },
+  "api/Payment.Domain.CashPaymentStrategy.html": {
+    "href": "api/Payment.Domain.CashPaymentStrategy.html",
+    "title": "Class CashPaymentStrategy | Documentation_Lab4",
+    "summary": "Class CashPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class CashPaymentStrategy : IPaymentStrategy Inheritance object CashPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "api/Payment.Domain.CreditCardPaymentStrategy.html": {
+    "href": "api/Payment.Domain.CreditCardPaymentStrategy.html",
+    "title": "Class CreditCardPaymentStrategy | Documentation_Lab4",
+    "summary": "Class CreditCardPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class CreditCardPaymentStrategy : IPaymentStrategy Inheritance object CreditCardPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "api/Payment.Domain.DebitCardPaymentStrategy.html": {
+    "href": "api/Payment.Domain.DebitCardPaymentStrategy.html",
+    "title": "Class DebitCardPaymentStrategy | Documentation_Lab4",
+    "summary": "Class DebitCardPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class DebitCardPaymentStrategy : IPaymentStrategy Inheritance object DebitCardPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "api/Payment.Domain.IPaymentStrategy.html": {
+    "href": "api/Payment.Domain.IPaymentStrategy.html",
+    "title": "Interface IPaymentStrategy | Documentation_Lab4",
+    "summary": "Interface IPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public interface IPaymentStrategy Methods Pay(double) bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "api/Payment.Domain.PaymentContext.html": {
+    "href": "api/Payment.Domain.PaymentContext.html",
+    "title": "Class PaymentContext | Documentation_Lab4",
+    "summary": "Class PaymentContext Namespace Payment.Domain Assembly Payment.Domain.dll public class PaymentContext Inheritance object PaymentContext Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool SetPaymentStrategy(IPaymentStrategy) public void SetPaymentStrategy(IPaymentStrategy strategy) Parameters strategy IPaymentStrategy"
+  },
+  "api/Payment.Domain.PaymentService.html": {
+    "href": "api/Payment.Domain.PaymentService.html",
+    "title": "Class PaymentService | Documentation_Lab4",
+    "summary": "Class PaymentService Namespace Payment.Domain Assembly Payment.Domain.dll public class PaymentService Inheritance object PaymentService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ProcessPayment(int, double) public bool ProcessPayment(int SelectedPaymentType, double Amount) Parameters SelectedPaymentType int Amount double Returns bool"
+  },
+  "api/Payment.Domain.PaymentType.html": {
+    "href": "api/Payment.Domain.PaymentType.html",
+    "title": "Enum PaymentType | Documentation_Lab4",
+    "summary": "Enum PaymentType Namespace Payment.Domain Assembly Payment.Domain.dll public enum PaymentType Fields Cash = 3 CreditCard = 1 DebitCard = 2"
+  },
+  "api/Payment.Domain.html": {
+    "href": "api/Payment.Domain.html",
+    "title": "Namespace Payment.Domain | Documentation_Lab4",
+    "summary": "Namespace Payment.Domain Classes CashPaymentStrategy CreditCardPaymentStrategy DebitCardPaymentStrategy PaymentContext PaymentService Interfaces IPaymentStrategy Enums PaymentType"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Documentation_Lab4",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Documentation_Lab4",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Documentation_Lab4",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
