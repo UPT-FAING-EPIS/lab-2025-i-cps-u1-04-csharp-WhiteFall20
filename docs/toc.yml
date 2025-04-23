@@ -1,4 +1,8 @@
-- name: Docs
-  href: docs/
-- name: API
-  href: api/
+- name: Inicio
+  href: index.md
+- name: API ATM
+  href: api/ATM.Domain.yml
+- name: API Payment
+  href: api/Payment.Domain.yml
+- name: API Comportamiento
+  href: api/Comportamiento.Domain.yml

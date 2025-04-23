@@ -2,10 +2,12 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+# Bienvenido a la Documentación del Lab 3
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
+Este sitio contiene la documentación generada automáticamente de las clases de los Proyectos **ATM.Domain**, **Payment.Domain** y **Comportamiento.Domain**.
 
-## Quick Start Notes:
+## Navegación
 
-1. Add images to the *images* folder if the file is referencing an image.
+- [Ver API generada de ATM](/api/ATM.Domain.html)
+- [Ver API generada de Payment](/api/Payment.Domain.html)
+- [Ver API generada de Comportamiento](/api/Comportamiento.Domain.html)
