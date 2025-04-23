@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Comportamiento.Domain.ISubject
+  commentId: T:Comportamiento.Domain.ISubject
+  id: ISubject
+  parent: Comportamiento.Domain
+  children:
+  - Comportamiento.Domain.ISubject.NotifyObservers
+  - Comportamiento.Domain.ISubject.RegisterObserver(Comportamiento.Domain.IObserver)
+  - Comportamiento.Domain.ISubject.RemoveObserver(Comportamiento.Domain.IObserver)
+  langs:
+  - csharp
+  - vb
+  name: ISubject
+  nameWithType: ISubject
+  fullName: Comportamiento.Domain.ISubject
+  type: Interface
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/ISubject.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: ISubject
+    path: ../Comportamiento/Comportamiento.Domain/ISubject.cs
+    startLine: 2
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: public interface ISubject
+    content.vb: Public Interface ISubject
+- uid: Comportamiento.Domain.ISubject.RegisterObserver(Comportamiento.Domain.IObserver)
+  commentId: M:Comportamiento.Domain.ISubject.RegisterObserver(Comportamiento.Domain.IObserver)
+  id: RegisterObserver(Comportamiento.Domain.IObserver)
+  parent: Comportamiento.Domain.ISubject
+  langs:
+  - csharp
+  - vb
+  name: RegisterObserver(IObserver)
+  nameWithType: ISubject.RegisterObserver(IObserver)
+  fullName: Comportamiento.Domain.ISubject.RegisterObserver(Comportamiento.Domain.IObserver)
+  type: Method
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/ISubject.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: RegisterObserver
+    path: ../Comportamiento/Comportamiento.Domain/ISubject.cs
+    startLine: 4
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: void RegisterObserver(IObserver observer)
+    parameters:
+    - id: observer
+      type: Comportamiento.Domain.IObserver
+    content.vb: Sub RegisterObserver(observer As IObserver)
+  overload: Comportamiento.Domain.ISubject.RegisterObserver*
+- uid: Comportamiento.Domain.ISubject.RemoveObserver(Comportamiento.Domain.IObserver)
+  commentId: M:Comportamiento.Domain.ISubject.RemoveObserver(Comportamiento.Domain.IObserver)
+  id: RemoveObserver(Comportamiento.Domain.IObserver)
+  parent: Comportamiento.Domain.ISubject
+  langs:
+  - csharp
+  - vb
+  name: RemoveObserver(IObserver)
+  nameWithType: ISubject.RemoveObserver(IObserver)
+  fullName: Comportamiento.Domain.ISubject.RemoveObserver(Comportamiento.Domain.IObserver)
+  type: Method
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/ISubject.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: RemoveObserver
+    path: ../Comportamiento/Comportamiento.Domain/ISubject.cs
+    startLine: 5
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: void RemoveObserver(IObserver observer)
+    parameters:
+    - id: observer
+      type: Comportamiento.Domain.IObserver
+    content.vb: Sub RemoveObserver(observer As IObserver)
+  overload: Comportamiento.Domain.ISubject.RemoveObserver*
+- uid: Comportamiento.Domain.ISubject.NotifyObservers
+  commentId: M:Comportamiento.Domain.ISubject.NotifyObservers
+  id: NotifyObservers
+  parent: Comportamiento.Domain.ISubject
+  langs:
+  - csharp
+  - vb
+  name: NotifyObservers()
+  nameWithType: ISubject.NotifyObservers()
+  fullName: Comportamiento.Domain.ISubject.NotifyObservers()
+  type: Method
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/ISubject.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: NotifyObservers
+    path: ../Comportamiento/Comportamiento.Domain/ISubject.cs
+    startLine: 6
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: void NotifyObservers()
+    content.vb: Sub NotifyObservers()
+  overload: Comportamiento.Domain.ISubject.NotifyObservers*
+references:
+- uid: Comportamiento.Domain
+  commentId: N:Comportamiento.Domain
+  href: Comportamiento.html
+  name: Comportamiento.Domain
+  nameWithType: Comportamiento.Domain
+  fullName: Comportamiento.Domain
+  spec.csharp:
+  - uid: Comportamiento
+    name: Comportamiento
+    href: Comportamiento.html
+  - name: .
+  - uid: Comportamiento.Domain
+    name: Domain
+    href: Comportamiento.Domain.html
+  spec.vb:
+  - uid: Comportamiento
+    name: Comportamiento
+    href: Comportamiento.html
+  - name: .
+  - uid: Comportamiento.Domain
+    name: Domain
+    href: Comportamiento.Domain.html
+- uid: Comportamiento.Domain.ISubject.RegisterObserver*
+  commentId: Overload:Comportamiento.Domain.ISubject.RegisterObserver
+  href: Comportamiento.Domain.ISubject.html#Comportamiento_Domain_ISubject_RegisterObserver_Comportamiento_Domain_IObserver_
+  name: RegisterObserver
+  nameWithType: ISubject.RegisterObserver
+  fullName: Comportamiento.Domain.ISubject.RegisterObserver
+- uid: Comportamiento.Domain.IObserver
+  commentId: T:Comportamiento.Domain.IObserver
+  parent: Comportamiento.Domain
+  href: Comportamiento.Domain.IObserver.html
+  name: IObserver
+  nameWithType: IObserver
+  fullName: Comportamiento.Domain.IObserver
+- uid: Comportamiento.Domain.ISubject.RemoveObserver*
+  commentId: Overload:Comportamiento.Domain.ISubject.RemoveObserver
+  href: Comportamiento.Domain.ISubject.html#Comportamiento_Domain_ISubject_RemoveObserver_Comportamiento_Domain_IObserver_
+  name: RemoveObserver
+  nameWithType: ISubject.RemoveObserver
+  fullName: Comportamiento.Domain.ISubject.RemoveObserver
+- uid: Comportamiento.Domain.ISubject.NotifyObservers*
+  commentId: Overload:Comportamiento.Domain.ISubject.NotifyObservers
+  href: Comportamiento.Domain.ISubject.html#Comportamiento_Domain_ISubject_NotifyObservers
+  name: NotifyObservers
+  nameWithType: ISubject.NotifyObservers
+  fullName: Comportamiento.Domain.ISubject.NotifyObservers

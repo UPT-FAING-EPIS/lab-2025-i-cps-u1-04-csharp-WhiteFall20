@@ -1,0 +1,37 @@
+name: Release Version
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: |
+          dotnet restore ATM/ATM.Domain/ATM.Domain.csproj
+          dotnet restore Payment/Payment.Domain/Payment.Domain.csproj
+
+      - name: Build NuGet Packages
+        run: |
+          dotnet pack ATM/ATM.Domain/ATM.Domain.csproj -c Release -o output
+          dotnet pack Payment/Payment.Domain/Payment.Domain.csproj -c Release -o output
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: output/*.nupkg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

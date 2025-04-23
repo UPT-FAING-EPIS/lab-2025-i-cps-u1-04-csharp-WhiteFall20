@@ -1,0 +1,12 @@
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.deps.json
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\bin\Debug\net8.0\Payment.Domain.pdb
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfoInputs.cache
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfo.cs
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.csproj.CoreCompileInputs.cache
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.sourcelink.json
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\refint\Payment.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\Payment.Domain.pdb
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\Payment\Payment.Domain\obj\Debug\net8.0\ref\Payment.Domain.dll

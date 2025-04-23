@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Comportamiento.Domain.IObserver
+  commentId: T:Comportamiento.Domain.IObserver
+  id: IObserver
+  parent: Comportamiento.Domain
+  children:
+  - Comportamiento.Domain.IObserver.Update(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: IObserver
+  nameWithType: IObserver
+  fullName: Comportamiento.Domain.IObserver
+  type: Interface
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/IObserver.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: IObserver
+    path: ../Comportamiento/Comportamiento.Domain/IObserver.cs
+    startLine: 2
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: public interface IObserver
+    content.vb: Public Interface IObserver
+- uid: Comportamiento.Domain.IObserver.Update(System.Single)
+  commentId: M:Comportamiento.Domain.IObserver.Update(System.Single)
+  id: Update(System.Single)
+  parent: Comportamiento.Domain.IObserver
+  langs:
+  - csharp
+  - vb
+  name: Update(float)
+  nameWithType: IObserver.Update(float)
+  fullName: Comportamiento.Domain.IObserver.Update(float)
+  type: Method
+  source:
+    remote:
+      path: Comportamiento/Comportamiento.Domain/IObserver.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-WhiteFall20.git
+    id: Update
+    path: ../Comportamiento/Comportamiento.Domain/IObserver.cs
+    startLine: 4
+  assemblies:
+  - Comportamiento.Domain
+  namespace: Comportamiento.Domain
+  syntax:
+    content: void Update(float temperature)
+    parameters:
+    - id: temperature
+      type: System.Single
+    content.vb: Sub Update(temperature As Single)
+  overload: Comportamiento.Domain.IObserver.Update*
+  nameWithType.vb: IObserver.Update(Single)
+  fullName.vb: Comportamiento.Domain.IObserver.Update(Single)
+  name.vb: Update(Single)
+references:
+- uid: Comportamiento.Domain
+  commentId: N:Comportamiento.Domain
+  href: Comportamiento.html
+  name: Comportamiento.Domain
+  nameWithType: Comportamiento.Domain
+  fullName: Comportamiento.Domain
+  spec.csharp:
+  - uid: Comportamiento
+    name: Comportamiento
+    href: Comportamiento.html
+  - name: .
+  - uid: Comportamiento.Domain
+    name: Domain
+    href: Comportamiento.Domain.html
+  spec.vb:
+  - uid: Comportamiento
+    name: Comportamiento
+    href: Comportamiento.html
+  - name: .
+  - uid: Comportamiento.Domain
+    name: Domain
+    href: Comportamiento.Domain.html
+- uid: Comportamiento.Domain.IObserver.Update*
+  commentId: Overload:Comportamiento.Domain.IObserver.Update
+  href: Comportamiento.Domain.IObserver.html#Comportamiento_Domain_IObserver_Update_System_Single_
+  name: Update
+  nameWithType: IObserver.Update
+  fullName: Comportamiento.Domain.IObserver.Update
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

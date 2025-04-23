@@ -1,0 +1,12 @@
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.deps.json
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.pdb
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.AssemblyInfoInputs.cache
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.AssemblyInfo.cs
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.csproj.CoreCompileInputs.cache
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.sourcelink.json
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\refint\ATM.Domain.dll
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.pdb
+H:\Patrones\Labs\Lab4\lab-2025-i-cps-u1-04-csharp-WhiteFall20\ATM\ATM.Domain\obj\Debug\net8.0\ref\ATM.Domain.dll

@@ -1,0 +1,41 @@
+name: Package NuGet
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore Projects
+        run: |
+          dotnet restore ATM/ATM.Domain/ATM.Domain.csproj
+          dotnet restore Payment/Payment.Domain/Payment.Domain.csproj
+          dotnet restore Comportamiento/Comportamiento.Domain/Comportamiento.Domain.csproj
+
+      - name: Run Tests
+        run: |
+          dotnet test ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj --no-build
+          dotnet test Payment/Payment.Domain.Tests/Payment.Domain.Tests.csproj --no-build
+          dotnet test Comportamiento/Comportamiento.Domain.Tests/Comportamiento.Domain.Tests.csproj --no-build
+
+      - name: Build NuGet Packages
+        run: |
+          dotnet pack ATM/ATM.Domain/ATM.Domain.csproj -c Release -o output
+          dotnet pack Payment/Payment.Domain/Payment.Domain.csproj -c Release -o output
+          dotnet pack Comportamiento/Comportamiento.Domain/Comportamiento.Domain.csproj -c Release -o output
+
+      - name: Publish NuGet Packages to GitHub Packages
+        run: |
+          dotnet nuget push output/*.nupkg --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" --api-key ${{ secrets.GITHUB_TOKEN }}

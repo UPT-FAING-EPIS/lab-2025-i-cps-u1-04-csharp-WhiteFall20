@@ -1,0 +1,57 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../ATM/ATM.Domain/",
+          "files": [
+            "ATM.Domain.csproj"
+          ]
+        },
+        {
+          "src": "../Comportamiento/Comportamiento.Domain/",
+          "files": [
+            "Comportamiento.Domain.csproj"
+          ]
+        },
+        {
+          "src": "../Payment/Payment.Domain/",
+          "files": [
+            "Payment.Domain.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Documentation_Lab4",
+      "_appTitle": "Documentation_Lab4",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}
